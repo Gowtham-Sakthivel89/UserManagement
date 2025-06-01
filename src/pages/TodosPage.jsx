@@ -9,7 +9,7 @@ const TodosPage = () => {
 
   return (
     <div className="todos-page">
-      <h2>Your Tasks</h2>
+      <h2>Tasks</h2>
       <TodoForm editTodo={editTodo} setEditTodo={setEditTodo} />
       <TodoList setEditTodo={setEditTodo} />
     </div>
