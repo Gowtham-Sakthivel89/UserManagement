@@ -31,11 +31,11 @@ const ProfilePage = () => {
 const ProfileView = ({ profileData }) => (
   <div className="profile-view">
     <div className="profile-field">
-      <label>Username:</label>
+      <label>Username: </label>
       <span>{profileData?.username || 'Not available'}</span>
     </div>
     <div className="profile-field">
-      <label>Email:</label>
+      <label>Email: </label>
       <span>{profileData?.email || 'Not available'}</span>
     </div>
     {/* Add more fields as needed */}

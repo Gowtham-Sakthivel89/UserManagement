@@ -9,9 +9,9 @@ import {
 const mockUsers = [
   {
     id: 1,
-    username: 'demo',
-    password: 'password123',
-    email: 'demo@example.com',
+    username: 'innoppl',  
+    password: 'password@123',
+    email: 'innoppl@example.com',
     token: 'mock-auth-token-12345'
   },
   {
