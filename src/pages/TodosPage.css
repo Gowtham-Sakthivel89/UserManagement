@@ -1,0 +1,122 @@
+.todos-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .todo-form {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .todo-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .todo-list {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .todo-filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .todo-filters button {
+    padding: 5px 15px;
+    border: 1px solid #ddd;
+    background: #f5f5f5;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .todo-filters button.active {
+    background: #3498db;
+    color: white;
+    border-color: #3498db;
+  }
+  
+  .todo-item {
+    display: flex;
+    align-items: flex-start;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .todo-item.completed .todo-content h4 {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .todo-content {
+    flex: 1;
+    margin: 0 15px;
+  }
+  
+  .todo-content small {
+    color: #777;
+    font-size: 0.8rem;
+  }
+  
+  .todo-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .edit-btn, .delete-btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .edit-btn {
+    background: #f39c12;
+    color: white;
+  }
+  
+  .delete-btn {
+    background: #e74c3c;
+    color: white;
+  }
+  
+  .no-tasks {
+    text-align: center;
+    color: #777;
+    padding: 20px 0;
+  }
+  
+  .cancel-btn {
+    margin-left: 10px;
+    background: #95a5a6;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .form-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .form-actions button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .cancel-btn {
+    background: #95a5a6;
+    color: white;
+  }
