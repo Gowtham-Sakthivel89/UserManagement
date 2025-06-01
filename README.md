@@ -48,7 +48,7 @@ Password: password123
 ## Installation Guide
 
 ### 1. Clone the Repository
-git clone https://github.com/yourusername/user-management-app.git
+git clone https://github.com/Gowtham-Sakthivel89/UserManagement
 cd user-management-app
 
 ### 2. Install Dependencies
